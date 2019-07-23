@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="pt-br">
+  <head>
+    <!--META-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Tailoane Cassio</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="demo-blog demo-blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">
+      <main class="mdl-layout__content">
+        <div class="demo-back">
+          <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="index.html" title="go back" role="button">
+            <i class="material-icons" role="presentation">arrow_back</i>
+          </a>
+        </div>
+        <div class="demo-blog__posts mdl-grid">
+          <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><font color="020202">CONFISSÃO</font></h3>
+            </div>
+            <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+              <div class="minilogo"></div>
+              <div>
+                <strong>Tailoane Cassio</strong>
+                <span>1 dia atrás</span>
+              </div>
+              <div class="section-spacer"></div>
+              <div class="meta__favorites">
+                733 <i class="material-icons" role="presentation">favorite</i>
+                <span class="visuallyhidden">favorites</span>
+              </div>
+              <div>
+                <i class="material-icons" role="presentation">bookmark</i>
+                <span class="visuallyhidden">bookmark</span>
+              </div>
+              <div>
+                <i class="material-icons" role="presentation">share</i>
+                <span class="visuallyhidden">share</span>
+              </div>
+            </div>
+            <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+              <p>
+                Quero confessar a todos que fazem parte do meu círculo social, principalmente para minha amiga Mônica Stefani
+                e a Vó que eu mentir a vida toda para vocês. <b>Eu nunca torci realmente para o flamengo</b>. Meu verdadeiro time
+                é o Corinthians. Peço perdão a todos.
+              </p>
+            </div>
+            <div class="mdl-color-text--primary-contrast mdl-card__supporting-text comments">
+              <form>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <textarea rows=1 class="mdl-textfield__input" id="comment"></textarea>
+                  <label for="comment" class="mdl-textfield__label">Comente também</label>
+                </div>
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                  <i class="material-icons" role="presentation">check</i><span class="visuallyhidden">add comment</span>
+                </button>
+              </form>
+              <div class="comment mdl-color-text--grey-700">
+                <header class="comment__header">
+                  <img src="images/co1.jpg" class="comment__avatar">
+                  <div class="comment__author">
+                    <strong>Mônica Steafani</strong>
+                    <span>5 horas atrás</span>
+                  </div>
+                </header>
+                <div class="comment__text">
+                  Sua traíra, acabou nossa amizade.
+                </div>
+                <nav class="comment__actions">
+                  <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                    <i class="material-icons" role="presentation">thumb_up</i><span class="visuallyhidden">like comment</span>
+                  </button>
+                  <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                    <i class="material-icons" role="presentation">thumb_down</i><span class="visuallyhidden">dislike comment</span>
+                  </button>
+                  <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                    <i class="material-icons" role="presentation">share</i><span class="visuallyhidden">share comment</span>
+                  </button>
+                </nav>
+                <div class="comment__answers">
+                  <div class="comment">
+                    <header class="comment__header">
+                      <img src="images/co2.jpg" class="comment__avatar">
+                      <div class="comment__author">
+                        <strong>Karina</strong>
+                        <span>agora</span>
+                      </div>
+                    </header>
+                    <div class="comment__text">
+                      Já sabia. Percebi isso faz tempo já.
+                    </div>
+                    <nav class="comment__actions">
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                        <i class="material-icons" role="presentation">thumb_up</i><span class="visuallyhidden">like comment</span>
+                      </button>
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                        <i class="material-icons" role="presentation">thumb_down</i><span class="visuallyhidden">dislike comment</span>
+                      </button>
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                        <i class="material-icons" role="presentation">share</i><span class="visuallyhidden">share comment</span>
+                      </button>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+              <span class="visuallyhidden">Twitter</span>
+            </button>
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
+              <span class="visuallyhidden">Facebook</span>
+            </button>
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
+              <span class="visuallyhidden">Google Plus</span>
+            </button>
+          </div>
+          <div class="mdl-mini-footer--right-section">
+            <button class="mdl-mini-footer--social-btn social-btn__share">
+              <i class="material-icons" role="presentation">share</i>
+              <span class="visuallyhidden">share</span>
+            </button>
+          </div>
+        </footer>
+      </main>
+      <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
